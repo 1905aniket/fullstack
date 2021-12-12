@@ -12,6 +12,7 @@ import { FooterComponent } from './footer/footer.component';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { HttpClientModule } from '@angular/common/http';
 import { FormsModule, ReactiveFormsModule } from '@angular/forms';
+import { EditComponent } from './edit/edit.component';
 
 @NgModule({
   declarations: [
@@ -21,7 +22,8 @@ import { FormsModule, ReactiveFormsModule } from '@angular/forms';
     AllusersComponent,
     RegisterComponent,
     CodeforjavaComponent,
-    FooterComponent
+    FooterComponent,
+    EditComponent
     
   ],
   imports: [

@@ -18,4 +18,5 @@ export class AllusersComponent implements OnInit {
     let response=this.service.deleteUser(username);
     response.subscribe (data=>this.users=data);
   }
+  
 }

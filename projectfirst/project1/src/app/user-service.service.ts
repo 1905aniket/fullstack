@@ -30,4 +30,9 @@ public deleteUser(username :any){
   return this.http.get("http://localhost:8080/delete/"+username);
 
 }
+public updateUser(us:any){
+
+  return this.http.put("http://localhost:8080/update", us, {responseType : "text" as "json"});
+
+}
 }

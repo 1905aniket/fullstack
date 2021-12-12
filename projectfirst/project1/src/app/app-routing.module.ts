@@ -3,6 +3,7 @@ import { NgModule } from '@angular/core';
 import { RouterModule, Routes } from '@angular/router';
 import { AllusersComponent } from './allusers/allusers.component';
 import { CodeforjavaComponent } from './codeforjava/codeforjava.component';
+import { EditComponent } from './edit/edit.component';
 import { RegisterComponent } from './register/register.component';
 import { SearchComponent } from './search/search.component';
 
@@ -13,6 +14,7 @@ const routes: Routes = [
   {path:"Allusers",component:AllusersComponent},
   {path:"Register",component:RegisterComponent},
   {path:"codeforjava",component:CodeforjavaComponent},
+  {path:"update",component:EditComponent},
   {path:"**", component:CodeforjavaComponent}
 ];
 
